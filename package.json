@@ -1,0 +1,27 @@
+{
+  "name": "gestor-correos",
+  "version": "1.0.0",
+  "description": "AE4 Paradigmas II - Gestor de Correos Electronicos con Filtros Dinamicos (POO + Programacion Funcional en TypeScript)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [
+    "typescript",
+    "poo",
+    "programacion-funcional",
+    "tdd"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.6.3"
+  }
+}
